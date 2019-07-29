@@ -3,9 +3,9 @@
 <echo> Hi this is my First ant script </echo>
 </target>
 <target name = "B" depends="C">
-<ech> Hi this is my Secnd ant script </echo>
+<echo> Hi this is my Secnd ant script </echo>
 </target>
 <target name = "C" depends="B,A">
-<ech> Hi this is my Third ant script </echo>
+<echo> Hi this is my Third ant script </echo>
 </target>
 </project>
