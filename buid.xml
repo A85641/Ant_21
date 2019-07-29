@@ -1,4 +1,4 @@
-<project name = "test" defaut="A" basedir=".">
+<project name = "test" default="A" basedir=".">
 <target name = "A" depends="B">
 <echo> Hi this is my First ant script </echo>
 </target>
